@@ -1,0 +1,35 @@
+/*
+Theme Name:		Castle Partnership
+Theme URI: 		http://www.castlepartnership.co.uk/
+Version: 		1
+Description: 	Theme for Castle Partnership</a>.
+Author: 		Rik Barwick
+Author URI:		http://www.creativitea.co.uk
+Tags:			one-column, two-columns, three-columns, fixed-width, sticky-post, threaded-comments, microformats
+
+*/
+
+/* Reset Browser Defaults */
+@import url( '../Castle-Partnership/library/media/css/reset.css' );
+
+/* Apply base theme styles and colors */
+@import url( '../Castle-Partnership/library/media/css/base.css' );
+
+/* Basic 2 Column Layout */
+@import url( '../Castle-Partnership/library/media/layouts/2col-l.css' );
+
+/* Stylistic CSS Styles */
+@import url( '../Castle-Partnership/library/media/css/screen.css' );
+
+/* These empty css selectors are temporarily here for compatiability with the WordPress theme repository checklist. */
+.aligncenter {} .alignleft {} .alignright {} .wp-caption {} .wp-caption-text {}
+
+#footer-castle
+	{
+	margin-bottom: 20px;
+	}
+	
+#footer-lexcel
+	{
+	float: right;
+	}

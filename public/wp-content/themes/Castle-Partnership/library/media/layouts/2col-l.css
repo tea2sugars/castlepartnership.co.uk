@@ -1,0 +1,12 @@
+/**
+ * Basic 2 column (aside)(content) fixed layout
+ * 
+ * @package WPFramework
+ * @subpackage Layouts
+ * @beta
+ */
+
+.container {background:#FFF; width: 1020px; margin:0 auto; padding:0;}
+.hfeed { width: 720px; float: right; margin:30px 20px 0 0; }
+.aside { width: 200px; float: left; margin:90px 0 0 70px; }
+.footer { clear: both; }
